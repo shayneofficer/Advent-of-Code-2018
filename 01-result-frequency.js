@@ -1,4 +1,4 @@
-// Starting with the input list of numbers
+// Starting with my input list of numbers
 var input = `+5
 -11
 -1
