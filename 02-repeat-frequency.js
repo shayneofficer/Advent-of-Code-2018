@@ -1030,4 +1030,4 @@ while (!repeatFound) {
     }
 }
 
-console.log(freqArray);
+// First repeat for me: 82516
