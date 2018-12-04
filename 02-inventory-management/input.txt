@@ -1,4 +1,4 @@
-var input = `ayitmcjvlhedbsyoqfzukjpxwt
+ayitmcjvlhedbsyoqfzukjpxwt
 agirmcjvlheybsyogfzuknpxxt
 wgirmcjvlvedbsyoqfzujnpxwt
 agizmcjvlhedbsyoqfzuenlxwt
@@ -247,31 +247,4 @@ agirjcjvlhodbsyoqfzuanpxwt
 ajirmcjvlhedbpyoqftuknpxwt
 cgirmcjvlhedbsyoqfiuonpxwt
 ayirmcjvlhedbsyaqfzuknwxwt
-agirmcjvlhedbdyoqbzwknpxwt`;
-
-var inputArray = input.split("\n");
-
-for (var i = 0; i < inputArray.length - 1; i++) {
-    for (var j = i + 1; j < inputArray.length; j++) {
-        if (isSimilar(inputArray[i], inputArray[j])) {
-            console.log(`${inputArray[i]} and ${inputArray[j]}`);
-            break;
-        }
-    }
-}
-
-function isSimilar(str1, str2) {
-    var numDifs = 0;
-    for (var i = 0; i < str1.length; i++) {
-        if (str1.charAt(i) !== str2.charAt(i)) {
-            numDifs++;
-        }
-        if (numDifs > 1) {
-            return false;
-        }
-    }
-    return true;
-}
-
-// Similar strings: agirmdjvlhedpsyoqfzuknpjwt and agitmdjvlhedpsyoqfzuknpjwt
-// Strings minus difference agimdjvlhedpsyoqfzuknpjwt
+agirmcjvlhedbdyoqbzwknpxwt

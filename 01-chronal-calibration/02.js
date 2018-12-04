@@ -3,6 +3,11 @@ const fs = require("fs");
 // Starting with my input list of numbers
 fs.readFile("./input.txt", "utf8", (err, data) => {
 
+    // Handle error object
+    if (err) {
+        return console.log(err);
+    }
+
     // Turn the input string into an array split around newlines
     var arrayInput = data.split("\n");
     // Starting frequency is 0
