@@ -272,3 +272,6 @@ function isSimilar(str1, str2) {
     }
     return true;
 }
+
+// Similar strings: agirmdjvlhedpsyoqfzuknpjwt and agitmdjvlhedpsyoqfzuknpjwt
+// Strings minus difference agimdjvlhedpsyoqfzuknpjwt
