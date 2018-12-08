@@ -1,4 +1,4 @@
-var fs = require("fs");
+const fs = require("fs");
 
 // Guard object constructor to initialize a new guard with a number and total minutes slept starting at 0
 var Guard = function (num) {
