@@ -44,7 +44,7 @@ fs.readFile("./input.txt", "utf8", (err, data) => {
         }
         if (goodClaim) {
             console.log(box[4]);
-            // #704
+            // #701
         }
     }
 
